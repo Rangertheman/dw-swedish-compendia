@@ -1,16 +1,18 @@
 # dw-swedish-compendia
 [DW] Swedish Compendia
 
-#+TITLE: Dungeon World svenska kompendier
+## Description
 
-An add-on module for the Dungeon World system for Foundry VTT to add Swedish compendia to your gameworld. Please note that the compendia are inspired by World of Adventures. Moves from Dungeon World RAW but not in WoA are included but not assigned to a character class.
+An add-on module for Asacolips' Dungeon World system for Foundry VTT to add Swedish compendia to your gameworld. Please note that the compendia are inspired by World of Adventures. Moves from Dungeon World RAW but not in WoA are included, but not assigned to a character class.
+
+## Installation
 
 * Install
 
 First install the Dungeon World system, then use the following URL to
 install this module.
 
-~https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json~
+[https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json]
 
 The module will configure the Dungeon World system settings for using the Swedish compendia automatically and will also make adjustments for the World of Adventures inspired settings.
 
@@ -27,7 +29,7 @@ on and off as well. Any content you are using from this module's
 compendia should be imported to the game world so that it will not be
 missing.
 
-* Licensing
+## Licensing
 
 All HTML, CSS, and JS is licensed under the [[https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json/LICENSE.txt][MIT license]].
 
@@ -37,3 +39,18 @@ copy of this license, visit [[https://creativecommons.org/licenses/by-sa/3.0/us/
 Creative Commons, 444 Castro Street, Suite 900, Mountain View,
 California, 94041, USA.
 
+## Feedback
+
+* Please, any suggestion or feedback is greatly appreciated. Use the issue system.
+
+## Credits  
+
+* This module has been made possible by kind permission from Asacolips.   
+* Translations by Krister Persson (Rangertheman).
+* The Dungeon World system for Foundry VTT is created and maintained by Asacolips.
+
+# Versions
+
+Version 1.0.1
+
+* initial release
