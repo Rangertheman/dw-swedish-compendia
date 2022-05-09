@@ -58,4 +58,4 @@ California, 94041, USA.
 
 Version 0.0.9
 
-* initial release
+* Initial release. Please note that you currently have to import the compendia to get full functionality.
