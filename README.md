@@ -3,7 +3,7 @@
 
 ## Description
 
-An add-on module for Asacolips' Dungeon World system for Foundry VTT to add Swedish compendia to your gameworld. Please note that the compendia are inspired by Worlds of Adventure. All moves from the Dungeon World SRD are included, but some are not assigned to a character class. This is when they have been replaced by a WoA move.
+An add-on module for Asacolips' Dungeon World system for Foundry VTT to add Swedish compendia to your gameworld. Please note that the compendia are inspired by Worlds of Adventure. All moves from the Dungeon World SRD are included. Some are not assigned to a character class, i.e. when they have been replaced by a WoA move.
 
 ## Installation
 
