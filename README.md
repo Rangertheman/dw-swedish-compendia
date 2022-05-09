@@ -48,7 +48,7 @@ California, 94041, USA.
 * This module has been made possible by kind permission from Asacolips.   
 * Translations by Krister Persson (Rangertheman).
 * The Dungeon World system for Foundry VTT is created and maintained by Asacolips.
-* Worlds of Adventure is created by Camron Burns.
+* Worlds of Adventure is created by Cameron Burns.
 
 ## Versions
 
