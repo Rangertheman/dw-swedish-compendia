@@ -54,6 +54,6 @@ California, 94041, USA.
 
 ## Versions
 
-Version 1.0.1
+Version 0.0.9
 
 * initial release
