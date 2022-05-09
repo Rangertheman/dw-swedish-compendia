@@ -182,8 +182,18 @@
     {
       "label": "SV Utrustning (Klass)",
       "type": "Item",
-      "name": "hsv-utrustning-klass",
+      "name": "sv-utrustning-klass",
       "path": "packs/sv-utrustning-klass.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+ {
+      "label": "SV Etiketter",
+      "type": "Item",
+      "name": "sv-etiketter",
+      "path": "packs/sv-etiketter.db",
       "system": "dungeonworld",
       "package": "world",
       "private": false,
