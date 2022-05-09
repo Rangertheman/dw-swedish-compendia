@@ -16,6 +16,8 @@ install this module.
 
 The module will configure the Dungeon World system settings for using the Swedish compendia automatically and will also make adjustments for the World of Adventures inspired settings.
 
+DO NOT use this module at the same time as the Homebrew World (HBW) module as this will cause a loop.
+
 * Uninstall
 
 When removing this module from your game world, the settings in the
