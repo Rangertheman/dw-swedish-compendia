@@ -56,6 +56,10 @@ California, 94041, USA.
 
 ## Versions
 
+Version 0.1.0
+
+* Corrected a faulty download link
+
 Version 0.0.9
 
 * Initial release. Please note that you currently have to import the compendia to get full functionality.

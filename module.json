@@ -3,7 +3,7 @@
   "title": "Dungeon World svenska kompendier",
   "description": "Grunddrag, spelböcker, etiketter och utrustning på svenska",
   "author": "Krister Persson (Rangertheman)",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "minimumCoreVersion": 9,
   "compatibleCoreVersion": 9,
   "system": [
@@ -222,5 +222,5 @@
   ],
   "url": "https://github.com/Rangertheman/dw-swedish-compendia",
   "manifest": "https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json",
-  "download": "hhttps://github.com/Rangertheman/dw-swedish-compendia/archive/master.zip"
+  "download": "https://github.com/Rangertheman/dw-swedish-compendia/archive/master.zip"
 }
