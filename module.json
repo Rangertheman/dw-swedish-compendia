@@ -3,7 +3,7 @@
   "title": "Dungeon World svenska kompendier",
   "description": "Grunddrag, spelböcker, etiketter och utrustning på svenska",
   "author": "Krister Persson (Rangertheman)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minimumCoreVersion": 9,
   "compatibleCoreVersion": 9,
   "system": [
@@ -50,10 +50,10 @@
       "entity": "Item"
     },
     {
-      "label": "SV Tjuvens drag",
+      "label": "SV Rackarens drag",
       "type": "Item",
-      "name": "sv-tjuvens-drag",
-      "path": "packs/sv-tjuvens-drag.db",
+      "name": "sv-rackarens-drag",
+      "path": "packs/sv-rackarens-drag.db",
       "system": "dungeonworld",
       "package": "world",
       "private": false,
@@ -214,6 +214,16 @@
       "type": "Item",
       "name": "sv-klerkens-besvarjelser",
       "path": "packs/sv-klerkens-besvarjelser.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "SV WoA-drag",
+      "type": "Item",
+      "name": "sv-woa-drag",
+      "path": "packs/sv-woa-drag.db",
       "system": "dungeonworld",
       "package": "world",
       "private": false,
