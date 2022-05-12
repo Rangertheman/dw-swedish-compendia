@@ -5,7 +5,9 @@ Dungeon World Swedish Compendia
 
 Svenska kompendier till Asacolips Dungeon World-system till Foundry VTT. Innehåller klasser, grunddrag, spelböcker för samtliga klasser, etiketter och utrustningslistor.
 
-An add-on module for Asacolips' Dungeon World system for Foundry VTT to add Swedish compendia to your game world. Please note that the compendia are inspired by Worlds of Adventure. All moves from the Dungeon World SRD are included. Some are not assigned to a character class, i.e. when they have been replaced by a WoA move.
+An add-on module for Asacolips' Dungeon World system for Foundry VTT to add Swedish compendia to your game world.
+
+Some Worlds of Adventure moves are included in their own compendium.
 
 ## Installation
 
@@ -16,7 +18,7 @@ install this module.
 
 [https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json]
 
-The module will configure the Dungeon World system settings for using the Swedish compendia automatically and will also make adjustments for the World of Adventures inspired settings.
+The module will configure the Dungeon World system settings for using the Swedish compendia automatically.
 
 !DO NOT! use this module at the same time as the Homebrew World Add-on module as this will cause a loop.
 
@@ -52,9 +54,13 @@ California, 94041, USA.
 * This module has been made possible by kind permission from Asacolips.   
 * Translations by Krister Persson (Rangertheman).
 * The Dungeon World system for Foundry VTT is created and maintained by Asacolips.
-* Worlds of Adventure is created by Cameron Burns.
+* Worlds of Adventure (discontinued) is created by Cameron Burns.
 
 ## Versions
+
+Version 0.2.0
+
+* Made all moves follow the SRD/rulebook. Worlds of Adventure moves have been moved to their own compendium
 
 Version 0.1.0
 
