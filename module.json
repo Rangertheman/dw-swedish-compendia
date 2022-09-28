@@ -1,236 +1,186 @@
 {
-  "name": "dw-swedish-compendia",
-  "title": "Dungeon World svenska kompendier",
-  "description": "Grunddrag, spelböcker, etiketter och utrustning på svenska",
-  "author": "Krister Persson (Rangertheman)",
-  "version": "0.2.0",
-  "minimumCoreVersion": 9,
-  "compatibleCoreVersion": 9,
-  "system": [
-    "dungeonworld"
-  ],
-    "dependencies": [
-    {
-      "name": "dungeonworld",
-      "type": "system"
-    }
-  ],
-    "esmodules": [
-    "modules/settings.js"
-  ],
-  "packs": [
-    {
-      "label": "SV Grunddrag",
-      "type": "Item",
-      "name": "sv-grunddrag",
-      "path": "packs/sv-grunddrag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "entity": "Item",
-      "private": false
-    },
-    {
-      "label": "SV Klasser",
-      "type": "Item",
-      "name": "sv-klasser",
-      "path": "packs/sv-klasser.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "entity": "Item",
-      "private": false
-    },
-    {
-      "label": "SV Krigarens drag",
-      "type": "Item",
-      "name": "sv-krigarens-drag",
-      "path": "packs/sv-krigarens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Rackarens drag",
-      "type": "Item",
-      "name": "sv-rackarens-drag",
-      "path": "packs/sv-rackarens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Magikerns drag",
-      "type": "Item",
-      "name": "sv-magikerns-drag",
-      "path": "packs/sv-magikerns-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Klerkens drag",
-      "type": "Item",
-      "name": "sv-klerkens-drag",
-      "path": "packs/sv-klerkens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Barbarens drag",
-      "type": "Item",
-      "name": "sv-barbarens-drag",
-      "path": "packs/sv-barbarens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Stigfinnarens drag",
-      "type": "Item",
-      "name": "sv-stigfinnarens-drag",
-      "path": "packs/sv-stigfinnarens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Bardens drag",
-      "type": "Item",
-      "name": "sv-bardens-drag",
-      "path": "packs/sv-bardens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Paladinens drag",
-      "type": "Item",
-      "name": "sv-paladinens-drag",
-      "path": "packs/sv-paladinens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Druidens drag",
-      "type": "Item",
-      "name": "sv-druidens-drag",
-      "path": "packs/sv-druidens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Brännarens drag",
-      "type": "Item",
-      "name": "sv-brannarens-drag",
-      "path": "packs/sv-brannarens-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Utrustning (Vapen)",
-      "type": "Item",
-      "name": "sv-utrustning-vapen",
-      "path": "packs/sv-utrustning-vapen.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Utrustning (Rustningar)",
-      "type": "Item",
-      "name": "sv-utrustning-rustningar",
-      "path": "packs/sv-utrustning-rustningar.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Utrustning (Gifter)",
-      "type": "Item",
-      "name": "sv-utrustning-gifter",
-      "path": "packs/sv-utrustning-gifter.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Utrustning (Prylar)",
-      "type": "Item",
-      "name": "sv-utrustning-prylar",
-      "path": "packs/sv-utrustning-prylar.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Utrustning (Klass)",
-      "type": "Item",
-      "name": "sv-utrustning-klass",
-      "path": "packs/sv-utrustning-klass.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
- {
-      "label": "SV Etiketter",
-      "type": "Item",
-      "name": "sv-etiketter",
-      "path": "packs/sv-etiketter.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Magikerns bevärjelser",
-      "type": "Item",
-      "name": "sv-magikerns-besvarjelser",
-      "path": "packs/sv-magikerns-besvarjelser.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV Klerkens besvärjelser",
-      "type": "Item",
-      "name": "sv-klerkens-besvarjelser",
-      "path": "packs/sv-klerkens-besvarjelser.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    },
-    {
-      "label": "SV WoA-drag",
-      "type": "Item",
-      "name": "sv-woa-drag",
-      "path": "packs/sv-woa-drag.db",
-      "system": "dungeonworld",
-      "package": "world",
-      "private": false,
-      "entity": "Item"
-    }
-  ],
-  "url": "https://github.com/Rangertheman/dw-swedish-compendia",
-  "manifest": "https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json",
-  "download": "https://github.com/Rangertheman/dw-swedish-compendia/archive/master.zip"
+   "name":"dw-swedish-compendia",
+   "title":"Dungeon World svenska kompendier",
+   "description":"Grunddrag, spelböcker, etiketter och utrustning på svenska",
+   "url":"https://github.com/Rangertheman/dw-swedish-compendia",
+   "manifest":"https://raw.githubusercontent.com/Rangertheman/dw-swedish-compendia/master/module.json",
+   "download":"https://github.com/Rangertheman/dw-swedish-compendia/archive/master.zip",
+   "authors":[
+      {
+         "name":"Krister Persson (Rangertheman)",
+         "discord":"Krister Persson#4927",
+         "flags":{
+            
+         }
+      }
+   ],
+   "version":"0.3.0",
+   "compatibility":{
+      "minimum":"10",
+      "verified":"10.286"
+   },
+   "relationships":{
+      "systems":[
+         {
+            "id":"dungeonworld",
+            "type":"system",
+            "compatibility":{
+               "minimum":"1.6.0",
+               "verified":"1.6.1"
+            }
+         }
+      ]
+   },
+   "esmodules":[
+      "modules/settings.js"
+   ],
+   "packs":[
+      {
+         "label":"SV Grunddrag",
+         "name":"sv-grunddrag",
+         "path":"./packs/sv-grunddrag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Klasser",
+         "name":"sv-klasser",
+         "path":"./packs/sv-klasser.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Krigarens drag",
+         "name":"sv-krigarens-drag",
+         "path":"./packs/sv-krigarens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Rackarens drag",
+         "name":"sv-rackarens-drag",
+         "path":"./packs/sv-rackarens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Magikerns drag",
+         "name":"sv-magikerns-drag",
+         "path":"./packs/sv-magikerns-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Klerkens drag",
+         "name":"sv-klerkens-drag",
+         "path":"./packs/sv-klerkens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Barbarens drag",
+         "name":"sv-barbarens-drag",
+         "path":"./packs/sv-barbarens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Stigfinnarens drag",
+         "name":"sv-stigfinnarens-drag",
+         "path":"./packs/sv-stigfinnarens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Bardens drag",
+         "name":"sv-bardens-drag",
+         "path":"./packs/sv-bardens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Paladinens drag",
+         "name":"sv-paladinens-drag",
+         "path":"./packs/sv-paladinens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Druidens drag",
+         "name":"sv-druidens-drag",
+         "path":"./packs/sv-druidens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Brännarens drag",
+         "name":"sv-brannarens-drag",
+         "path":"./packs/sv-brannarens-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Utrustning (Vapen)",
+         "name":"sv-utrustning-vapen",
+         "path":"./packs/sv-utrustning-vapen.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Utrustning (Rustningar)",
+         "name":"sv-utrustning-rustningar",
+         "path":"./packs/sv-utrustning-rustningar.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Utrustning (Gifter)",
+         "name":"sv-utrustning-gifter",
+         "path":"./packs/sv-utrustning-gifter.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Utrustning (Prylar)",
+         "name":"sv-utrustning-prylar",
+         "path":"./packs/sv-utrustning-prylar.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Utrustning (Klass)",
+         "name":"sv-utrustning-klass",
+         "path":"./packs/sv-utrustning-klass.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Etiketter",
+         "name":"sv-etiketter",
+         "path":"./packs/sv-etiketter.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Magikerns bevärjelser",
+         "name":"sv-magikerns-besvarjelser",
+         "path":"./packs/sv-magikerns-besvarjelser.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV Klerkens besvärjelser",
+         "name":"sv-klerkens-besvarjelser",
+         "path":"./packs/sv-klerkens-besvarjelser.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      },
+      {
+         "label":"SV WoA-drag",
+         "name":"sv-woa-drag",
+         "path":"./packs/sv-woa-drag.db",
+         "type":"Item",
+         "system":"dungeonworld"
+      }
+   ]
 }
