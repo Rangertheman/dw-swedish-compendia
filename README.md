@@ -58,6 +58,10 @@ California, 94041, USA.
 
 ## Versions
 
+Version 0.3.0
+
+* Foundry VTT version 10 compatible
+
 Version 0.2.1
 
 * Minor corrections
