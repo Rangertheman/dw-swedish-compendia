@@ -58,6 +58,10 @@ California, 94041, USA.
 
 ## Versions
 
+Version 4.0
+
+* Verified with Dungeon World system version 1.7.0 and Foundry V11.300
+
 Version 3.3
 
 * Verified with Dungeon World system version 1.6.2
