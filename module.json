@@ -14,10 +14,10 @@
          }
       }
    ],
-   "version":"0.3.3",
+   "version":"0.4.0",
    "compatibility":{
       "minimum":"10",
-      "verified":"10.291"
+      "verified":"11"
    },
    "relationships":{
       "systems":[
@@ -26,7 +26,7 @@
             "type":"system",
             "compatibility":{
                "minimum":"1.6.0",
-               "verified":"1.6.2"
+               "verified":"1.7.0"
             }
          }
       ]
