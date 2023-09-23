@@ -266,5 +266,14 @@
   "DW.Dialog.bondContent":"Lägg in en modifikation för bandet eller en modifikation för det här <strong>{name}</strong> draget.",
   "DW.Notifications.noClassWarning":"Du måste välja en existerande klass innan du går upp i nivå.",
   "DW.Scrolling.armorReduced":"{reduced} Rustning skyddar",
-  "DW.Scrolling.armorPiercing":"{piercing} Rustning ignoreras"
+  "DW.Scrolling.armorPiercing":"{piercing} Rustning ignoreras",
+  "ACTOR.TypeCharacter": "Rollperson",
+  "ACTOR.TypeNpc": "SLP",
+  "ITEM.TypeMove": "Drag",
+  "ITEM.TypeNpcmove": "SLP-drag",
+  "ITEM.TypeEquipment": "Utrustning",
+  "ITEM.TypeSpell": "Besvärjelse",
+  "ITEM.TypeBond": "Band",
+  "ITEM.TypeTag": "Etikett",
+  "ITEM.TypeClass": "Klass"
 }
