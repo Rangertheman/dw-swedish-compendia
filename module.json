@@ -14,10 +14,10 @@
          }
       }
    ],
-   "version":"0.4.3",
+   "version":"0.4.4",
    "compatibility":{
-      "minimum":"10",
-      "verified":"11.309"
+      "minimum":"12",
+      "verified":"12"
    },
    "relationships":{
       "systems":[
@@ -25,9 +25,8 @@
             "id":"dungeonworld",
             "type":"system",
             "compatibility":{
-               "minimum":"1.6.0",
-               "verified":"1.7.1"
-            }
+               "minimum":"1.8.0"
+               }
          }
       ]
    },
