@@ -60,7 +60,7 @@ California, 94041, USA.
 
 Version 0.4.4
 
-* Updated to Dungeon World system version 1.8.0. Supports only Foundry version 12+.
+* Updated to Dungeon World system version 1.8.0. Supports only Foundry VTT version 12+.
 
 Version 0.4.1
 
